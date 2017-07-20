@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Awork</display-name>
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>Servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TuiServlet</servlet-name>
+    <servlet-class>Servlet.TuiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XmimaServlet</servlet-name>
+    <servlet-class>Servlet.XmimaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XgerenServlet</servlet-name>
+    <servlet-class>Servlet.XgerenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GenrenServlet</servlet-name>
+    <servlet-class>Servlet.GenrenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdLoginServlet</servlet-name>
+    <servlet-class>Servlet.AdLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JianYiServlet</servlet-name>
+    <servlet-class>Servlet.JianYiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JianYiXServlet</servlet-name>
+    <servlet-class>Servlet.JianYiXServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JianYiXJServlet</servlet-name>
+    <servlet-class>Servlet.JianYiXJServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GeYijianServlet</servlet-name>
+    <servlet-class>Servlet.GeYijianServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdManageuServlet</servlet-name>
+    <servlet-class>Servlet.AdManageuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserpingServlet</servlet-name>
+    <servlet-class>Servlet.UserpingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HaiJiaoServlet</servlet-name>
+    <servlet-class>Servlet.HaiJiaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserpServlet</servlet-name>
+    <servlet-class>Servlet.UserpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserpdelServlet</servlet-name>
+    <servlet-class>Servlet.UserpdelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UsergpdelServlet</servlet-name>
+    <servlet-class>Servlet.UsergpdelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GerenServlet</servlet-name>
+    <servlet-class>Servlet.GerenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdPingServlet</servlet-name>
+    <servlet-class>Servlet.AdPingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdMeiPServlet</servlet-name>
+    <servlet-class>Servlet.AdMeiPServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdMeiServlet</servlet-name>
+    <servlet-class>Servlet.AdMeiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdMeiaddServlet</servlet-name>
+    <servlet-class>Servlet.AdMeiaddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdMeidelServlet</servlet-name>
+    <servlet-class>Servlet.AdMeidelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GeYiJiandelServlet</servlet-name>
+    <servlet-class>Servlet.GeYiJiandelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdMeiPdelServlet</servlet-name>
+    <servlet-class>Servlet.AdMeiPdelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UsergServlet</servlet-name>
+    <servlet-class>Servlet.UsergServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TuiServlet</servlet-name>
+    <url-pattern>/TuiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XmimaServlet</servlet-name>
+    <url-pattern>/XmimaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XgerenServlet</servlet-name>
+    <url-pattern>/XgerenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GenrenServlet</servlet-name>
+    <url-pattern>/GenrenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdLoginServlet</servlet-name>
+    <url-pattern>/AdLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JianYiServlet</servlet-name>
+    <url-pattern>/JianYiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JianYiXServlet</servlet-name>
+    <url-pattern>/JianYiXServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JianYiXJServlet</servlet-name>
+    <url-pattern>/JianYiXJServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GeYijianServlet</servlet-name>
+    <url-pattern>/GeYijianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdManageuServlet</servlet-name>
+    <url-pattern>/AdManageuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserpingServlet</servlet-name>
+    <url-pattern>/UserpingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HaiJiaoServlet</servlet-name>
+    <url-pattern>/HaiJiaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserpServlet</servlet-name>
+    <url-pattern>/UserpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserpdelServlet</servlet-name>
+    <url-pattern>/UserpdelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UsergpdelServlet</servlet-name>
+    <url-pattern>/UsergpdelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GerenServlet</servlet-name>
+    <url-pattern>/GerenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdPingServlet</servlet-name>
+    <url-pattern>/AdPingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdMeiPServlet</servlet-name>
+    <url-pattern>/AdMeiPServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdMeiServlet</servlet-name>
+    <url-pattern>/AdMeiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdMeiaddServlet</servlet-name>
+    <url-pattern>/AdMeiaddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdMeidelServlet</servlet-name>
+    <url-pattern>/AdMeidelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GeYiJiandelServlet</servlet-name>
+    <url-pattern>/GeYiJiandelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdMeiPdelServlet</servlet-name>
+    <url-pattern>/AdMeiPdelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UsergServlet</servlet-name>
+    <url-pattern>/UsergServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
